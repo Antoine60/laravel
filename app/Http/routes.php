@@ -12,7 +12,6 @@
 */
 
 Route::get('/', 'PageController@home');
-
-
 Route::resource('user', 'UserController');
 Route::resource('job', 'JobController');
+Route::get('toto', 'tmpController@index');
